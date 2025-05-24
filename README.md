@@ -14,19 +14,19 @@ Este repositorio contiene una imagen Docker personalizada que instala y configur
 
 ##  Construcción de imagen y ejecución del contenedor
 
-###  Clona este repositorio
+##  Clona este repositorio
 
 ```bash
 git clone https://github.com/ludobix2/mi_primer_proyecto.git
 cd nagios-docker
 
-### Construye la imagen de Docker
+## Construye la imagen de Docker
 
 ```bash
 docker build -t nagios-core .
 
 
-### Ejecuta el Contenedor
+## Ejecuta el Contenedor
 
 ```bash
 docker run -d -p 8080:80 --name nagios nagios-core
@@ -37,7 +37,7 @@ docker run -d -p 8080:80 --name nagios nagios-core
 http://localhost:8080
 
 
-### Credenciales de Acceso a Nagios
+## Credenciales de Acceso a Nagios
 ## User: nagiosadmin Pass: nagiosadmin
 
 
