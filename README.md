@@ -1,10 +1,10 @@
-#  Nagios Core en Docker (Ubuntu 24.04)
+# 🐧 Nagios Core en Docker (Ubuntu 24.04)
 
 Este repositorio contiene una imagen Docker personalizada que instala y configura **Nagios Core** para ser accesible desde el navegador mediante **Apache2**.
 
 ---
 
-##  Requisitos
+##  📋 Requisitos
 
 - Docker y Docker Compose instalados  
 - Puerto **80** libre para exponer la interfaz web  
@@ -12,7 +12,7 @@ Este repositorio contiene una imagen Docker personalizada que instala y configur
 
 ---
 
-##  Construcción de imagen y ejecución del contenedor
+##  🛠️ Construcción de imagen y ejecución del contenedor
 
 ##  Clona este repositorio:
 
@@ -41,19 +41,19 @@ http://localhost:8080
 ```
 
 
-## Credenciales de Acceso a Nagios:
-```
- User: nagiosadmin Pass: nagiosadmin
-```
+## 🔐 Credenciales de acceso a Nagios
+
+Usuario: nagiosadmin
+Contraseña: nagiosadmin
 
 
-## Puedes descargar una imagen de nagios subida por mi desde mi repo official Docker Hub:
+## 📦 Imagen preconstruida (Docker Hub)
 
 ```sh
 docker pull ludobix/nagios
 ```
 
-### Puedes ejecutar el contenedor:
+### Puedes ejecutar directamente:
 
 ```sh
 docker run -d --name nagios -p 8080:80 ludobix/nagios
@@ -64,4 +64,9 @@ docker run -d --name nagios -p 8080:80 ludobix/nagios
 ```sh
 http://localhost:8080
 ```
+
+🧑‍💻 Autor
+
+GitHub: @ludobix2
+Docker Hub: ludobix
 
