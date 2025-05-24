@@ -18,7 +18,7 @@ Este repositorio contiene una imagen Docker personalizada que instala y configur
 
 ```sh
 git clone https://github.com/ludobix2/mi_primer_proyecto.git
-cd nagios-docker
+cd mi_primer_proyecto
 ```
 
 ## Construye la imagen de Docker:
