@@ -42,7 +42,9 @@ http://localhost:8080
 
 
 ## Credenciales de Acceso a Nagios:
-## User: nagiosadmin Pass: nagiosadmin
+```
+ User: nagiosadmin Pass: nagiosadmin
+```
 
 
 ## Puedes descargar una imagen de nagios subida por mi desde mi repo official Docker Hub:
