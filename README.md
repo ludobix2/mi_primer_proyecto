@@ -62,7 +62,7 @@ docker run -d --name nagios -p 8080:80 ludobix/nagios
 ## Acceso a Nagios:
 
 ```sh
-http://localhost:8080
+http://localhost:8080/nagios
 ```
 
 🧑‍💻 Autor
