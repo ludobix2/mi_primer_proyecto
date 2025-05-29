@@ -30,14 +30,14 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Paso 8: Verificar instalación
-echo "✅ Docker versión instalada:"
+echo "Docker versión instalada:"
 docker --version
-echo "✅ Docker Compose versión instalada:"
+echo "Docker Compose versión instalada:"
 docker compose version
 
 # Paso 9: Habilitar y arrancar el servicio Docker
 sudo systemctl enable docker
 sudo systemctl start docker
 
-echo "🎉 Docker instalado correctamente. Puedes usar 'docker' y 'docker compose' desde ahora."
+echo "Docker instalado correctamente. Puedes usar 'docker' y 'docker compose' desde ahora."
 
